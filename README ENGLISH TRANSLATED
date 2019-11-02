@@ -1,0 +1,23 @@
+Surface-pro-4-hackintosh-10.14.x-10.15.x (surface book 1)
+Perfect! In addition to the global unsolvable touch screen, built-in WIFI Bluetooth camera, has solved all problems, almost perfect
+
+Surface Book
+Surface book 1 Download the aml replacement in DSDT For SurfaceBook1.zip to solve the dual battery problem (https://github.com/BAByte/SurfaceBook-Hackintosh);
+Reference source: https://www.insanelymac.com/forum/topic/311874-guidedeprecated-installing-os-x-10114-10123-on-surface-book/
+Update 10.15.1
+10.15.1 The patch address does not change. Change the config.plist matchos to 10.15.1 and upgrade directly.
+Update 10.15
+Thanks to the patch author FireWolf (surface series savior).
+Do not overwrite the clover file, delete the original, copy the entire new clover folder;
+Install with configIs.plist and enter the system (if you can't try sp4-install.plist), rebuild the cache;
+After restarting, enter the system with normal config.plist and drive successfully;
+Wireless network card driver address: https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases
+Update 10.14.6
+Updated clover file to 5018, the file structure has changed;
+Use install.plist to install, rebuild the cache after the installation is complete, and then switch to config.plist;
+Do not overwrite the clover folder, directly delete the original directory, copy the new complete clover file;
+Update 10.14.5
+Update clover and kext to the latest version;
+Adapt 10.14.5, install using install.plist, rebuild the cache after installation, and then switch to config.plist;
+1600x1066 hidpi resolution is stable, there is no flower screen and sleep scaling problem in 10.14.3, voodooi2c uses version 2.1.5.
+Upgrade from 10.14.3, first directly to 10.14.5, use install.plist to enter, then use the new clover file (for insurance, don't overwrite, delete the original, copy the new clover), restart Then use install.plist to enter the system, rebuild the cache, and then enter the system with the new config.plist
